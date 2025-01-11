@@ -214,6 +214,7 @@ section {
 
 /*BUTTONS*/
 .btn-container {
+    
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -225,10 +226,14 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
+    text-align: center;
+    color: black;
 }
 
 .btn-color-1, .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgb(255, 255, 255);
+    color: black;
 }
 
 .btn-color-1:hover,
